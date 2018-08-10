@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="end">
+<head>
+	<title>Growth Institute. A Gazelles Company</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap-4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="assets/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-title">
+	 <span class="navbar-brand mx-auto text-title ">Máximos y mínimos</span>
+</nav>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6" id="firststep">
+			<div class="section-tab">Ingrese un arreglo</div>
+
+			<form id="form" method="POST">
+			<div class="row">
+				<div class="col-sm-12 form-group">
+				<center><label><b>Arreglo: </b></span></label></center>
+				<div class="input-group">
+				<span class="input-group-text"><b>[</b></span>
+				<input class="form-control" type="text" name="arreglo" id="arreglo" autocomplete="off" placeholder="Formato: 1,2,3,4,5,6,7,8" required>
+				<span class="input-group-text"><b>]</b></span>
+				</div>
+				</div>
+				<div class="col-sm-12 text-center">
+					<button type="button" class="btn btn-primary" id="enviar" disabled>Continue</button>
+				</div>
+			</div>
+			</form>
+		</div>
+		<div class="col-md-6">
+			<div class="section-tab">Resultado</div>
+			<div class="container2">
+				<div class="col-md-12">
+				<b>Máximo:</b>
+				<span id="maximo"></span>
+			</div>
+			<div class="col-md-12">
+				<b>Mínimo:</b>
+				<span id="minimo"></span>
+			</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="assets/js/validate.js"></script>
